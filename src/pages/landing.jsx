@@ -34,13 +34,12 @@ const Landing = () => {
         </p>
       </section>
       <div className="flex-col sm:flex-row flex gap-6 justify-center items-center">
-        {user?.unsafeMetadata?.role === "candidate" && (
-          <Link to="/jobs">
-            <Button variant="blue" size="xl">
-              Find Job
-            </Button>
-          </Link>
-        )}
+        <Link to="/jobs">
+          <Button variant="blue" size="xl">
+            Find Job
+          </Button>
+        </Link>
+
         {user?.unsafeMetadata?.role === "candidate" && (
           <Link to="/my-jobs">
             <Button variant="secondary" size="xl">
