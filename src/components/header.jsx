@@ -65,20 +65,7 @@ const Header = () => {
               appearance={{
                 elements: { avatarBox: "w-10 h-10" },
               }}
-            >
-              {/* <UserButton.MenuItems>
-                <UserButton.Link
-                  label="My Jobs"
-                  labelIcon={<BriefcaseBusiness size={15} />}
-                  href="/my-jobs"
-                />
-                <UserButton.Link
-                  label="Saved Jobs"
-                  labelIcon={<Heart size={15} />}
-                  href="/saved-jobs"
-                />
-              </UserButton.MenuItems> */}
-            </UserButton>
+            ></UserButton>
           </SignedIn>
         </div>
       </nav>
@@ -99,3 +86,18 @@ const Header = () => {
 };
 
 export default Header;
+
+{
+  /* <UserButton.MenuItems>
+  <UserButton.Link
+    label="My Jobs"
+    labelIcon={<BriefcaseBusiness size={15} />}
+    href="/my-jobs"
+  />
+  <UserButton.Link
+    label="Saved Jobs"
+    labelIcon={<Heart size={15} />}
+    href="/saved-jobs"
+  />
+</UserButton.MenuItems>; */
+}
