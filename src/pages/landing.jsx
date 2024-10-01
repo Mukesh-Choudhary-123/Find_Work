@@ -33,12 +33,18 @@ const Landing = () => {
           Explore thousands of job listing or find the perfect candidate
         </p>
       </section>
-      <div className="flex gap-6 justify-center ">
+      <div className="flex-col sm:flex-row flex gap-6 justify-center items-center">
         <Link to="/jobs">
           <Button variant="blue" size="xl">
             Find Job
           </Button>
         </Link>
+        <Link to="/my-jobs">
+          <Button variant="secondary" size="xl">
+            Applied Job
+          </Button>
+        </Link>
+
         {user?.unsafeMetadata?.role === "recruiter" && (
           <Link to="/post-job">
             <Button size="xl" variant="destructive">

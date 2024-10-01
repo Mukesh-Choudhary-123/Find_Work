@@ -66,7 +66,7 @@ const Header = () => {
                 elements: { avatarBox: "w-10 h-10" },
               }}
             >
-              <UserButton.MenuItems>
+              {/* <UserButton.MenuItems>
                 <UserButton.Link
                   label="My Jobs"
                   labelIcon={<BriefcaseBusiness size={15} />}
@@ -77,7 +77,7 @@ const Header = () => {
                   labelIcon={<Heart size={15} />}
                   href="/saved-jobs"
                 />
-              </UserButton.MenuItems>
+              </UserButton.MenuItems> */}
             </UserButton>
           </SignedIn>
         </div>
